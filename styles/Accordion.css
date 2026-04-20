@@ -1,0 +1,66 @@
+.custom-accordion .p-accordion .p-accordion-tab {
+    background: transparent !important;
+    border: none !important;
+    box-shadow: none !important;
+    margin-bottom: 20px;
+  }
+  
+  .custom-accordion .p-accordion-content {
+    background: transparent !important;
+    border: none !important;
+    box-shadow: none !important;
+  }
+  
+  .custom-accordion .p-accordion-header {
+    background: transparent !important;
+    border: none !important;
+    box-shadow: none !important;
+  }
+  
+  .custom-accordion .p-accordion-header .p-accordion-header-link .p-accordion-toggle-icon {
+    display: none !important;
+  }
+  
+  .custom-accordion .p-accordion-header .p-accordion-header-link {
+    background: none;
+  }
+  
+  .p-accordion .p-accordion-header .p-accordion-header-link {
+    padding: 0;
+    border: none;
+  }
+  
+  .p-accordion .p-accordion-content {
+    padding: 0;
+  }
+  
+  .p-accordion-tab {
+    margin-bottom: 20px;
+  }
+  
+  .p-accordion-tab {
+    border-radius: 11.895px;
+    background: var(--Neutral-100, #FFF);
+    box-shadow: 0px 4.248px 13.595px 0px rgba(8, 15, 52, 0.06);
+    padding: 24px 32px;
+  }
+  
+  .p-accordion-tab.p-accordion-tab-active {
+    border-radius: 11.895px;
+    border: 1.699px solid var(--Primary-Color-1, #4A3AFF);
+    background: var(--Neutral-100, #FFF);
+    box-shadow: 0px 5.098px 13.595px 0px rgba(74, 58, 255, 0.19);
+    padding: 24px 32px;
+  }
+  
+  .p-accordion-content p {
+    color: var(--Neutral-600, #6F6C90);
+    text-align: right;
+    font-feature-settings: 'liga' off, 'clig' off;
+    font-family: 'IRANYekan', sans-serif !important;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25.49px;
+  }
+  
